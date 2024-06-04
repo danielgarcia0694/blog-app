@@ -1,0 +1,25 @@
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+}
+  
+.circle-button {
+  background-color: #ff0000;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+}
+  
+.circle-button:hover {
+  cursor: pointer;
+  opacity: .9;
+}

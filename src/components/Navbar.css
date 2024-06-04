@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: #2d5dfa;
+  padding: 1rem;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  background-image: url('../assets/agregar-usuario.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar input {
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  border-radius: 15px;
+  border: none;
+  margin: 0 auto;
+}

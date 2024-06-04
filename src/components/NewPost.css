@@ -1,0 +1,44 @@
+.new-post-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 4rem 2rem;
+}
+
+.new-post-form h2 {
+  text-align: center;
+}
+
+.new-post-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-post-form input,
+.new-post-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.new-post-form button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.new-post-form button:hover {
+  background-color: #45a049;
+}
+
+button span{
+  padding-left: 0.5rem;
+}
